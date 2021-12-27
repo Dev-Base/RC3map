@@ -1,12 +1,5 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":100,
  "infinite":false,
  "layers":[
@@ -38,7 +31,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https://lobby.maps.at.rc3.world/\/maps\/erfas-south.json#start_dev-base"
+                 "value":"world:\/\/lobby\/punchcard.json#start_devbase"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -56,7 +49,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/main.json#startOut"
+                 "value":"world:\/\/lobby\/punchcard.json#start_devbase"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -139,7 +132,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -150,6 +143,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"scifi_space_rpg_tiles_32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":248,
          "tileheight":32,
@@ -163,6 +162,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"logo-heart",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -176,6 +181,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-objects",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":128,
          "tileheight":32,
@@ -189,6 +200,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-functionary",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -202,6 +219,12 @@
          "imagewidth":64,
          "margin":0,
          "name":"collection_stars",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":4,
          "tileheight":32,
@@ -234,6 +257,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-overlay",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":512,
          "tileheight":32,
@@ -424,6 +453,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"tilesets_deviant_milkian_1",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -447,6 +482,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"towel",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -460,6 +501,12 @@
          "imagewidth":320,
          "margin":0,
          "name":"devbase",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":100,
          "tileheight":32,
@@ -510,6 +557,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":100
 }

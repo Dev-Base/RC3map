@@ -1,11 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":100,
  "infinite":false,
  "layers":[
@@ -235,7 +228,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https://lobby.maps.at.rc3.world/\/maps\/erfas-south.json#start_dev-base"
+                 "value":"world:\/\/lobby\/punchcard.json#start_devbase"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -390,7 +383,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -401,6 +394,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-functionary",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -427,6 +426,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-objects",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":128,
          "tileheight":32,
@@ -440,6 +445,12 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
@@ -453,6 +464,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"logo-heart",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -469,6 +486,16 @@
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"false"
+                        }]
+                }],
          "tilewidth":32
         }, 
         {
@@ -479,6 +506,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"tilesets_deviant_milkian_1",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -1222,6 +1255,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"tilesets_deviant_milkian_3",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -1245,6 +1284,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"fantasy",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":1064,
          "tileheight":32,
@@ -1286,6 +1331,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"floortileset",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"false"
+                }],
          "spacing":0,
          "tilecount":64,
          "tileheight":32,
@@ -1393,6 +1444,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":100
 }
